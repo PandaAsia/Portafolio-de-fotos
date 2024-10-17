@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Portafolio-Jerry Garcia</title>
+
+	<script src="https://kit.fontawesome.com/497a7f609c.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>Jerry Garcia</h1>
+				<p>Desarrollo web</p>
+			</div>
+			<form action="">
+				<input type="text" name="" class="barra-busqueda" id="barra-busqueda" placeholder="buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Naturaleza</a>
+				<a href="#">Ciudades</a>
+				<a href="#">Personas</a>
+				<a href="#">Animales</a>
+			</div>
+		</header>
+
+		<section class="grid" id="grid">
+			<div class="item" 
+			data-categoria="Ciudades" 
+			data-etiqueta="Ciudades autos carros calles Todos"
+			data-descripcion="1.Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+				<div class="item-contenido">
+					<img src="img/ciudad1.png">
+				</div>
+			</div>
+
+			<div class="item" 
+			data-categoria="Animales" 
+			data-etiqueta="Animales leon gato Todos"
+			data-descripcion="1.Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+				<div class="item-contenido">
+					<img src="img/animal1.png">
+				</div>
+			</div>
+
+			<div class="item" 
+			data-categoria="Personas" 
+			data-etiqueta="Personas mujer teen Todos"
+			data-descripcion="1.Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+				<div class="item-contenido">
+					<img src="img/persona1.png">
+				</div>
+			</div>
+
+			<div class="item" 
+			data-categoria="Naturaleza" 
+			data-etiqueta="Naturaleza paisaje playa mar Todos"
+			data-descripcion="1.Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+				<div class="item-contenido">
+					<img src="img/paisaje1.png">
+				</div>
+			</div>
+
+			<div class="item" 
+			data-categoria="Personas" 
+			data-etiqueta="Personas mujer Todos"
+			data-descripcion="1.Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+				<div class="item-contenido">
+					<img src="img/persona2.png">
+				</div>
+			</div>
+
+			<div class="item" 
+			data-categoria="Ciudades" 
+			data-etiqueta="Ciudades autos carros calles playa mar Todos"
+			data-descripcion="1.Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+				<div class="item-contenido">
+					<img src="img/ciudad2.png">
+				</div>
+			</div>
+
+			<div class="item" 
+			data-categoria="Naturaleza" 
+			data-etiqueta="Naturaleza roca mar Todos"
+			data-descripcion="1.Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+				<div class="item-contenido">
+					<img src="img/paisaje2.png">
+				</div>
+			</div>
+
+			<div class="item" 
+			data-categoria="Animales" 
+			data-etiqueta="Animales panda cute Todos"
+			data-descripcion="1.Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+				<div class="item-contenido">
+					<img src="img/animal2.png">
+				</div>
+			</div>
+
+			<div class="item" 
+			data-categoria="Naturaleza" 
+			data-etiqueta="Naturaleza plata Todos"
+			data-descripcion="1.Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+				<div class="item-contenido">
+					<img src="img/naturaleza1.png">
+				</div>
+			</div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup">X</button>
+				<img src="">
+			</div>
+			<p class="descripcion">
+				</p>
+		</section>
+
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="#" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="#" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="#" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>Sitio Diseñado por <a href="#">Jerry Garcia</a> - <a href="#">PandaAsia</a></p>
+			</div>
+		</footer>
+	</div>
+
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
